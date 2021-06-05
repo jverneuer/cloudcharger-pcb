@@ -1,0 +1,97 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Ina219-breakout-charger
+#
+DEF Ina219-breakout-charger in 0 40 Y Y 1 F N
+F0 "in" 0 0 50 H V C CNN
+F1 "Ina219-breakout-charger" 0 0 50 H V C CNN
+F2 "charger:ina219_footprint" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X VIN- 1 -350 -300 150 R 50 50 1 1 P
+X VIN+ 2 -350 -400 150 R 50 50 1 1 P
+X VCC 3 -450 -150 150 L 50 50 1 1 P
+X GND 4 -450 -250 150 L 50 50 1 1 P
+X SCL 5 -450 -350 150 L 50 50 1 1 P
+X SDA 6 -450 -450 150 L 50 50 1 1 P
+X VIN- 7 -450 -550 150 L 50 50 1 1 P
+X VIN_+ 8 -450 -650 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-batteryholder1
+#
+DEF R-batteryholder1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-batteryholder1" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VCC-Adafruit_INA219_CurPowerMonitor-eagle-import
+#
+DEF VCC-Adafruit_INA219_CurPowerMonitor-eagle-import #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "VCC-Adafruit_INA219_CurPowerMonitor-eagle-import" -60 140 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -50 25 N
+P 2 1 0 0 50 25 0 100 N
+X VCC 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# cellholder_4_18650-batteryholder1
+#
+DEF cellholder_4_18650-batteryholder1 BT 0 0 N Y 1 F N
+F0 "BT" -650 -250 50 H V L CNN
+F1 "cellholder_4_18650-batteryholder1" -550 -250 50 H V L CNN
+F2 "charger:battery_holder" -1150 10 50 V I C CNN
+F3 "" -1150 10 50 V I C CNN
+DRAW
+S -1240 20 -1060 10 0 1 0 F
+S -1212 -3 -1092 -23 0 1 0 F
+S -490 20 -310 10 1 1 0 F
+S -462 -3 -342 -23 1 1 0 F
+S 310 20 490 10 1 1 0 F
+S 338 -3 458 -23 1 1 0 F
+S 1060 20 1240 10 1 1 0 F
+S 1088 -3 1208 -23 1 1 0 F
+P 2 0 1 0 -1150 -20 -1150 -50 N
+P 2 0 1 0 -1150 20 -1150 50 N
+P 2 0 1 10 -1130 85 -1090 85 N
+P 2 0 1 10 -1110 105 -1110 65 N
+P 2 1 1 0 -400 -20 -400 -50 N
+P 2 1 1 0 -400 20 -400 50 N
+P 2 1 1 10 -380 85 -340 85 N
+P 2 1 1 10 -360 105 -360 65 N
+P 2 1 1 0 400 -20 400 -50 N
+P 2 1 1 0 400 20 400 50 N
+P 2 1 1 10 420 85 460 85 N
+P 2 1 1 10 440 105 440 65 N
+P 2 1 1 0 1150 -20 1150 -50 N
+P 2 1 1 0 1150 20 1150 50 N
+P 2 1 1 10 1170 85 1210 85 N
+P 2 1 1 10 1190 105 1190 65 N
+X p1 1 -1150 150 100 D 50 50 1 1 P
+X p2 2 -400 150 100 D 50 50 1 1 P
+X p3 3 400 150 100 D 50 50 1 1 P
+X p4 4 1150 150 100 D 50 50 1 1 P
+X n1 5 1150 -150 100 U 50 50 1 1 P
+X n2 6 400 -150 100 U 50 50 1 1 P
+X n3 7 -400 -150 100 U 50 50 1 1 P
+X n4 8 -1150 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

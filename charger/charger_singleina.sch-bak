@@ -1,0 +1,1120 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A0 46811 33110
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "mar. 31 mars 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 20900 3900
+Text Label 20800 3750 1    60   ~ 0
+IOREF
+Text Label 20450 3750 1    60   ~ 0
+Vin
+Text Label 20450 5000 0    60   ~ 0
+A0
+Text Label 20450 5100 0    60   ~ 0
+A1
+Text Label 20450 5200 0    60   ~ 0
+A2
+Text Label 20450 5300 0    60   ~ 0
+A3
+Text Label 20450 5400 0    60   ~ 0
+A4
+Text Label 20450 5500 0    60   ~ 0
+A5
+Text Label 20450 5600 0    60   ~ 0
+A6
+Text Label 20450 5700 0    60   ~ 0
+A7
+Text Label 20450 5950 0    60   ~ 0
+A8
+Text Label 20450 6050 0    60   ~ 0
+A9
+Text Label 20450 6150 0    60   ~ 0
+A10
+Text Label 20450 6250 0    60   ~ 0
+A11
+Text Label 20450 6350 0    60   ~ 0
+A12
+Text Label 20450 6450 0    60   ~ 0
+A13
+Text Label 20450 6550 0    60   ~ 0
+A14
+Text Label 20450 6650 0    60   ~ 0
+A15
+Text Label 22050 7200 1    60   ~ 0
+22
+Text Label 21950 7200 1    60   ~ 0
+24
+Text Label 21850 7200 1    60   ~ 0
+26
+Text Label 21750 7200 1    60   ~ 0
+28
+Text Label 21650 7200 1    60   ~ 0
+30
+Text Label 21550 7200 1    60   ~ 0
+32
+Text Label 21450 7200 1    60   ~ 0
+34
+Text Label 21350 7200 1    60   ~ 0
+36
+Text Label 21250 7200 1    60   ~ 0
+38
+Text Label 21150 7200 1    60   ~ 0
+40
+Text Label 21050 7200 1    60   ~ 0
+42
+Text Label 20950 7200 1    60   ~ 0
+44
+Text Label 20850 7200 1    60   ~ 0
+46
+Text Label 20750 7200 1    60   ~ 0
+48
+Text Label 20650 7200 1    60   ~ 0
+50(MISO)
+Text Label 20550 7200 1    60   ~ 0
+52(SCK)
+Text Label 22050 8200 1    60   ~ 0
+23
+Text Label 21950 8200 1    60   ~ 0
+25
+Text Label 21850 8200 1    60   ~ 0
+27
+Text Label 21650 8200 1    60   ~ 0
+31
+Text Label 21750 8200 1    60   ~ 0
+29
+Text Label 21550 8200 1    60   ~ 0
+33
+Text Label 21450 8200 1    60   ~ 0
+35
+Text Label 21350 8200 1    60   ~ 0
+37
+Text Label 21250 8200 1    60   ~ 0
+39
+Text Label 21150 8200 1    60   ~ 0
+41
+Text Label 21050 8200 1    60   ~ 0
+43
+Text Label 20950 8200 1    60   ~ 0
+45
+Text Label 20850 8200 1    60   ~ 0
+47
+Text Label 20750 8200 1    60   ~ 0
+49
+Text Label 20650 8300 1    60   ~ 0
+51(MOSI)
+Text Label 20550 8300 1    60   ~ 0
+53(SS)
+Text Label 21950 6650 0    60   ~ 0
+21(SCL)
+Text Label 21950 6550 0    60   ~ 0
+20(SDA)
+Text Label 21950 6450 0    60   ~ 0
+19(Rx1)
+Text Label 21950 6350 0    60   ~ 0
+18(Tx1)
+Text Label 21950 6250 0    60   ~ 0
+17(Rx2)
+Text Label 21950 6150 0    60   ~ 0
+16(Tx2)
+Text Label 21950 6050 0    60   ~ 0
+15(Rx3)
+Text Label 21950 5950 0    60   ~ 0
+14(Tx3)
+Text Label 21950 4100 0    60   ~ 0
+13(**)
+Text Label 21950 4200 0    60   ~ 0
+12(**)
+Text Label 21950 4300 0    60   ~ 0
+11(**)
+Text Label 21950 4400 0    60   ~ 0
+10(**)
+Text Label 21950 4500 0    60   ~ 0
+9(**)
+Text Label 21950 4600 0    60   ~ 0
+8(**)
+Text Label 21950 5000 0    60   ~ 0
+7(**)
+Text Label 21950 5100 0    60   ~ 0
+6(**)
+Text Label 21950 5200 0    60   ~ 0
+5(**)
+Text Label 21950 5300 0    60   ~ 0
+4(**)
+Text Label 21950 5400 0    60   ~ 0
+3(**)
+Text Label 21950 5500 0    60   ~ 0
+2(**)
+Text Label 21950 5600 0    60   ~ 0
+1(Tx0)
+Text Label 21950 5700 0    60   ~ 0
+0(Rx0)
+Text Label 21950 3800 0    60   ~ 0
+SDA
+Text Label 21950 3700 0    60   ~ 0
+SCL
+Text Label 21950 3900 0    60   ~ 0
+AREF
+Text Notes 19925 3125 0    60   ~ 0
+Shield for Arduino Mega Rev 3
+Text Notes 22250 3550 0    60   ~ 0
+Holes
+$Comp
+L Connector_Generic:Conn_01x01 P8
+U 1 1 56D70B71
+P 22150 3200
+F 0 "P8" V 22250 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22250 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22150 3200 50  0001 C CNN
+F 3 "" H 22150 3200 50  0000 C CNN
+	1    22150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P9
+U 1 1 56D70C9B
+P 22250 3200
+F 0 "P9" V 22350 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22350 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22250 3200 50  0001 C CNN
+F 3 "" H 22250 3200 50  0000 C CNN
+	1    22250 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P10
+U 1 1 56D70CE6
+P 22350 3200
+F 0 "P10" V 22450 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22450 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22350 3200 50  0001 C CNN
+F 3 "" H 22350 3200 50  0000 C CNN
+	1    22350 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P11
+U 1 1 56D70D2C
+P 22450 3200
+F 0 "P11" V 22550 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22550 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22450 3200 50  0001 C CNN
+F 3 "" H 22450 3200 50  0000 C CNN
+	1    22450 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P12
+U 1 1 56D711A2
+P 22550 3200
+F 0 "P12" V 22650 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22650 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22550 3200 50  0001 C CNN
+F 3 "" H 22550 3200 50  0000 C CNN
+	1    22550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P13
+U 1 1 56D711F0
+P 22650 3200
+F 0 "P13" V 22750 3200 31  0000 C CNN
+F 1 "CONN_01X01" V 22750 3200 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 22650 3200 50  0001 C CNN
+F 3 "" H 22650 3200 50  0000 C CNN
+	1    22650 3200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 22150 3400
+NoConn ~ 22250 3400
+NoConn ~ 22350 3400
+NoConn ~ 22450 3400
+NoConn ~ 22550 3400
+NoConn ~ 22650 3400
+$Comp
+L Connector_Generic:Conn_01x08 P2
+U 1 1 56D71773
+P 21100 4200
+F 0 "P2" H 21100 4600 50  0000 C CNN
+F 1 "Power" V 21200 4200 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 21100 4200 50  0001 C CNN
+F 3 "" H 21100 4200 50  0000 C CNN
+	1    21100 4200
+	1    0    0    -1  
+$EndComp
+Text Notes 21200 3900 0    60   ~ 0
+1
+$Comp
+L power:+3V3 #PWR01
+U 1 1 56D71AA9
+P 20650 3750
+F 0 "#PWR01" H 20650 3600 50  0001 C CNN
+F 1 "+3.3V" V 20650 4000 50  0000 C CNN
+F 2 "" H 20650 3750 50  0000 C CNN
+F 3 "" H 20650 3750 50  0000 C CNN
+	1    20650 3750
+	1    0    0    -1  
+$EndComp
+Text Label 20150 4100 0    60   ~ 0
+Reset
+$Comp
+L power:+5V #PWR02
+U 1 1 56D71D10
+P 20550 3600
+F 0 "#PWR02" H 20550 3450 50  0001 C CNN
+F 1 "+5V" V 20550 3800 50  0000 C CNN
+F 2 "" H 20550 3600 50  0000 C CNN
+F 3 "" H 20550 3600 50  0000 C CNN
+	1    20550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 56D721E6
+P 20800 4700
+F 0 "#PWR03" H 20800 4450 50  0001 C CNN
+F 1 "GND" H 20800 4550 50  0000 C CNN
+F 2 "" H 20800 4700 50  0000 C CNN
+F 3 "" H 20800 4700 50  0000 C CNN
+	1    20800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 P5
+U 1 1 56D72368
+P 21500 4100
+F 0 "P5" H 21500 4600 50  0000 C CNN
+F 1 "PWM" V 21600 4100 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 21500 4100 50  0001 C CNN
+F 3 "" H 21500 4100 50  0000 C CNN
+	1    21500 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P3
+U 1 1 56D72F1C
+P 21100 5300
+F 0 "P3" H 21100 5700 50  0000 C CNN
+F 1 "Analog" V 21200 5300 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 21100 5300 50  0001 C CNN
+F 3 "" H 21100 5300 50  0000 C CNN
+	1    21100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P6
+U 1 1 56D734D0
+P 21500 5300
+F 0 "P6" H 21500 5700 50  0000 C CNN
+F 1 "PWM" V 21600 5300 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 21500 5300 50  0001 C CNN
+F 3 "" H 21500 5300 50  0000 C CNN
+	1    21500 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P4
+U 1 1 56D73A0E
+P 21100 6250
+F 0 "P4" H 21100 6650 50  0000 C CNN
+F 1 "Analog" V 21200 6250 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 21100 6250 50  0001 C CNN
+F 3 "" H 21100 6250 50  0000 C CNN
+	1    21100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P7
+U 1 1 56D73F2C
+P 21500 6250
+F 0 "P7" H 21500 6650 50  0000 C CNN
+F 1 "Communication" V 21600 6250 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 21500 6250 50  0001 C CNN
+F 3 "" H 21500 6250 50  0000 C CNN
+	1    21500 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even P1
+U 1 1 56D743B5
+P 21250 7600
+F 0 "P1" H 21250 8550 50  0000 C CNN
+F 1 "Digital" V 21250 7600 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_2x18" H 21250 6550 50  0001 C CNN
+F 3 "" H 21250 6550 50  0000 C CNN
+	1    21250 7600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	20650 3750 20650 4200
+Wire Wire Line
+	20800 4000 20800 3750
+Wire Wire Line
+	20900 4000 20800 4000
+Wire Notes Line
+	22000 3550 22000 3050
+Wire Notes Line
+	22750 3550 22000 3550
+Wire Notes Line
+	21400 3200 21400 3025
+Wire Notes Line
+	19900 3200 21400 3200
+Wire Wire Line
+	20650 4200 20900 4200
+Wire Wire Line
+	20550 3600 20550 4300
+Wire Wire Line
+	20550 4300 20900 4300
+Wire Wire Line
+	20900 4600 20450 4600
+Wire Wire Line
+	20450 4600 20450 3750
+Wire Wire Line
+	20150 4100 20900 4100
+Wire Wire Line
+	20900 4400 20800 4400
+Wire Wire Line
+	20800 4400 20800 4500
+Wire Wire Line
+	20800 4500 20800 4700
+Wire Wire Line
+	20900 4500 20800 4500
+Connection ~ 20800 4500
+Wire Wire Line
+	21700 3700 21950 3700
+Wire Wire Line
+	21950 3800 21700 3800
+Wire Wire Line
+	21700 3900 21950 3900
+Wire Wire Line
+	21700 4100 21950 4100
+Wire Wire Line
+	21950 4200 21700 4200
+Wire Wire Line
+	21700 4300 21950 4300
+Wire Wire Line
+	21700 4400 21950 4400
+Wire Wire Line
+	21950 4500 21700 4500
+Wire Wire Line
+	21700 4600 21950 4600
+Wire Wire Line
+	21800 4700 21800 4000
+Wire Wire Line
+	21800 4000 21700 4000
+Wire Wire Line
+	20900 5000 20450 5000
+Wire Wire Line
+	20450 5100 20900 5100
+Wire Wire Line
+	20900 5200 20450 5200
+Wire Wire Line
+	20450 5300 20900 5300
+Wire Wire Line
+	20900 5400 20450 5400
+Wire Wire Line
+	20450 5500 20900 5500
+Wire Wire Line
+	20900 5600 20450 5600
+Wire Wire Line
+	20450 5700 20900 5700
+Wire Wire Line
+	21950 5000 21700 5000
+Wire Wire Line
+	21700 5100 21950 5100
+Wire Wire Line
+	21950 5200 21700 5200
+Wire Wire Line
+	21700 5300 21950 5300
+Wire Wire Line
+	21950 5400 21700 5400
+Wire Wire Line
+	21700 5500 21950 5500
+Wire Wire Line
+	21950 5600 21700 5600
+Wire Wire Line
+	21700 5700 21950 5700
+Wire Wire Line
+	20900 5950 20450 5950
+Wire Wire Line
+	20450 6050 20900 6050
+Wire Wire Line
+	20900 6150 20450 6150
+Wire Wire Line
+	20450 6250 20900 6250
+Wire Wire Line
+	20900 6350 20450 6350
+Wire Wire Line
+	20450 6450 20900 6450
+Wire Wire Line
+	20900 6550 20450 6550
+Wire Wire Line
+	20450 6650 20900 6650
+Wire Wire Line
+	21950 5950 21700 5950
+Wire Wire Line
+	21700 6050 21950 6050
+Wire Wire Line
+	21950 6150 21700 6150
+Wire Wire Line
+	21700 6250 21950 6250
+Wire Wire Line
+	21950 6350 21700 6350
+Wire Wire Line
+	21700 6450 21950 6450
+Wire Wire Line
+	21950 6550 21700 6550
+Wire Wire Line
+	21700 6650 21950 6650
+Wire Wire Line
+	22050 7400 22050 7200
+Wire Wire Line
+	21950 7400 21950 7200
+Wire Wire Line
+	21850 7400 21850 7200
+Wire Wire Line
+	21750 7400 21750 7200
+Wire Wire Line
+	21650 7400 21650 7200
+Wire Wire Line
+	21550 7400 21550 7200
+Wire Wire Line
+	21450 7400 21450 7200
+Wire Wire Line
+	21350 7400 21350 7200
+Wire Wire Line
+	21250 7400 21250 7200
+Wire Wire Line
+	21150 7400 21150 7200
+Wire Wire Line
+	21050 7400 21050 7200
+Wire Wire Line
+	20950 7400 20950 7200
+Wire Wire Line
+	20850 7400 20850 7200
+Wire Wire Line
+	20750 7400 20750 7200
+Wire Wire Line
+	20650 7400 20650 7200
+Wire Wire Line
+	20550 7400 20550 7200
+Wire Wire Line
+	22050 7900 22050 8200
+Wire Wire Line
+	21950 7900 21950 8200
+Wire Wire Line
+	21850 7900 21850 8200
+Wire Wire Line
+	21750 7900 21750 8200
+Wire Wire Line
+	21650 7900 21650 8200
+Wire Wire Line
+	21550 7900 21550 8200
+Wire Wire Line
+	21450 7900 21450 8200
+Wire Wire Line
+	21350 7900 21350 8200
+Wire Wire Line
+	21250 7900 21250 8200
+Wire Wire Line
+	21150 7900 21150 8200
+Wire Wire Line
+	21050 7900 21050 8200
+Wire Wire Line
+	20950 7900 20950 8200
+Wire Wire Line
+	20850 7900 20850 8200
+Wire Wire Line
+	20750 7900 20750 8200
+Wire Wire Line
+	20650 7900 20650 8300
+Wire Wire Line
+	20550 7900 20550 8300
+Wire Wire Line
+	20450 7400 20200 7400
+$Comp
+L power:GND #PWR05
+U 1 1 56D758F6
+P 20200 8300
+F 0 "#PWR05" H 20200 8050 50  0001 C CNN
+F 1 "GND" H 20200 8150 50  0000 C CNN
+F 2 "" H 20200 8300 50  0000 C CNN
+F 3 "" H 20200 8300 50  0000 C CNN
+	1    20200 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20450 7900 20200 7900
+Connection ~ 20200 7900
+Wire Wire Line
+	22300 7900 22150 7900
+Wire Wire Line
+	22300 7400 22150 7400
+$Comp
+L power:+5V #PWR06
+U 1 1 56D75AB8
+P 22300 7100
+F 0 "#PWR06" H 22300 6950 50  0001 C CNN
+F 1 "+5V" H 22300 7240 50  0000 C CNN
+F 2 "" H 22300 7100 50  0000 C CNN
+F 3 "" H 22300 7100 50  0000 C CNN
+	1    22300 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 22300 7400
+Wire Wire Line
+	22300 7100 22300 7400
+Wire Wire Line
+	22300 7400 22300 7900
+Wire Wire Line
+	20200 7400 20200 7900
+Wire Wire Line
+	20200 7900 20200 8300
+Wire Notes Line
+	22750 8600 19900 8600
+Wire Notes Line
+	19900 8600 19900 3050
+$Comp
+L power:GND #PWR04
+U 1 1 56D72A3D
+P 21800 4700
+F 0 "#PWR04" H 21800 4450 50  0001 C CNN
+F 1 "GND" H 21800 4550 50  0000 C CNN
+F 2 "" H 21800 4700 50  0000 C CNN
+F 3 "" H 21800 4700 50  0000 C CNN
+	1    21800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L batteryholder1:cellholder_4_18650 BT2
+U 1 1 600707C0
+P 3250 1200
+F 0 "BT2" H 1982 1246 50  0000 R CNN
+F 1 "cellholder_4_18650" H 1982 1155 50  0000 R CNN
+F 2 "charger:battery_holder" V 2100 1210 50  0001 C CNN
+F 3 "~" V 2100 1210 50  0001 C CNN
+	1    3250 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L charger:NDP6020 Q7
+U 1 1 6007B785
+P 2000 1850
+F 0 "Q7" H 2250 1870 50  0000 L CNN
+F 1 "NDP6020" H 2250 1779 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2200 1775 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 2000 1850 50  0001 L CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q6
+U 1 1 6008709D
+P 2750 1850
+F 0 "Q6" H 3000 1870 50  0000 L CNN
+F 1 "NDP6020" H 3000 1779 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2950 1775 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 2750 1850 50  0001 L CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q5
+U 1 1 600884C8
+P 3550 1800
+F 0 "Q5" H 3800 1820 50  0000 L CNN
+F 1 "NDP6020" H 3800 1729 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3750 1725 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 3550 1800 50  0001 L CNN
+	1    3550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q4
+U 1 1 60089086
+P 4300 1800
+F 0 "Q4" H 4550 1820 50  0000 L CNN
+F 1 "NDP6020" H 4550 1729 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4500 1725 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 4300 1800 50  0001 L CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1350 2100 1650
+Wire Wire Line
+	2850 1650 2850 1350
+Wire Wire Line
+	3650 1600 3650 1350
+Wire Wire Line
+	4400 1600 4400 1350
+Wire Wire Line
+	1800 1850 1700 1850
+Wire Wire Line
+	1700 1850 1700 900 
+Wire Wire Line
+	1700 900  2100 900 
+Wire Wire Line
+	2100 900  2100 1050
+Wire Wire Line
+	2550 900  2850 900 
+Wire Wire Line
+	2850 900  2850 1050
+Wire Wire Line
+	3350 1800 3350 900 
+Wire Wire Line
+	3350 900  3650 900 
+Wire Wire Line
+	3650 900  3650 1050
+Wire Wire Line
+	4100 1800 4100 900 
+Wire Wire Line
+	4100 900  4400 900 
+Wire Wire Line
+	4400 900  4400 1050
+$Comp
+L charger:Conn_01x08_Male J2
+U 1 1 5FFC5CB8
+P 6800 4200
+F 0 "J2" H 6632 4119 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6632 4210 50  0000 R CNN
+F 2 "Connector_TE-Connectivity:TE_826576-8_1x08_P3.96mm_Vertical" H 6800 4200 50  0001 C CNN
+F 3 "~" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L batteryholder1:R R4
+U 1 1 60070D33
+P 4150 4050
+F 0 "R4" V 3943 4050 50  0000 C CNN
+F 1 "20k" V 4034 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 4080 4050 50  0001 C CNN
+F 3 "~" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L batteryholder1:R R3
+U 1 1 60082E13
+P 3250 4050
+F 0 "R3" V 3457 4050 50  0000 C CNN
+F 1 "20k" V 3366 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 3180 4050 50  0001 C CNN
+F 3 "~" H 3250 4050 50  0001 C CNN
+	1    3250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L batteryholder1:R R2
+U 1 1 6008386E
+P 2350 4050
+F 0 "R2" V 2557 4050 50  0000 C CNN
+F 1 "20k" V 2466 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 2280 4050 50  0001 C CNN
+F 3 "~" H 2350 4050 50  0001 C CNN
+	1    2350 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L batteryholder1:R R1
+U 1 1 60083B88
+P 1550 4050
+F 0 "R1" V 1757 4050 50  0000 C CNN
+F 1 "20k" V 1666 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 1480 4050 50  0001 C CNN
+F 3 "~" H 1550 4050 50  0001 C CNN
+	1    1550 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L charger:NDP6020 Q14
+U 1 1 60094B4D
+P 4200 3550
+F 0 "Q14" H 4450 3570 50  0000 L CNN
+F 1 "NDP6020" H 4450 3479 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4400 3475 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 4200 3550 50  0001 L CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q10
+U 1 1 60095B5E
+P 2400 3550
+F 0 "Q10" H 2650 3570 50  0000 L CNN
+F 1 "NDP6020" H 2650 3479 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2600 3475 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 2400 3550 50  0001 L CNN
+	1    2400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3750 4300 4050
+Wire Wire Line
+	4000 4050 4000 3550
+Wire Wire Line
+	1700 3750 1700 4050
+Wire Wire Line
+	1450 3550 1400 3550
+Wire Wire Line
+	1400 4050 1400 3550
+Wire Wire Line
+	2200 3550 2200 4050
+Wire Wire Line
+	2500 4050 2500 3750
+Wire Wire Line
+	3100 4050 3100 3550
+Wire Wire Line
+	3400 4050 3400 3750
+Connection ~ 3400 3750
+Connection ~ 3100 3550
+$Comp
+L charger:NDP6020 Q12
+U 1 1 6008F61F
+P 3300 3550
+F 0 "Q12" H 3550 3570 50  0000 L CNN
+F 1 "NDP6020" H 3550 3479 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3500 3475 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 3300 3550 50  0001 L CNN
+	1    3300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q3
+U 1 1 5FFACE98
+P 3300 3550
+F 0 "Q3" H 3550 3570 50  0000 L CNN
+F 1 "NDP6020" H 3550 3479 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3500 3475 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 3300 3550 50  0001 L CNN
+	1    3300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4050 4000 4700
+Connection ~ 4000 4050
+$Comp
+L charger:NDP6020 Q15
+U 1 1 601B51D5
+P 4700 3050
+F 0 "Q15" H 4950 3070 50  0000 L CNN
+F 1 "NDP6020" H 4950 2979 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4900 2975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 4700 3050 50  0001 L CNN
+	1    4700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4050 4800 4050
+Connection ~ 4300 4050
+$Comp
+L charger:NDP6020 Q13
+U 1 1 601D7A97
+P 3650 3050
+F 0 "Q13" H 3900 3070 50  0000 L CNN
+F 1 "NDP6020" H 3900 2979 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3850 2975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 3650 3050 50  0001 L CNN
+	1    3650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L charger:NDP6020 Q9
+U 1 1 601D8EB7
+P 1900 3050
+F 0 "Q9" H 2150 3070 50  0000 L CNN
+F 1 "NDP6020" H 2150 2979 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2100 2975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 1900 3050 50  0001 L CNN
+	1    1900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4050 3400 4050
+Connection ~ 3400 4050
+Connection ~ 2500 4050
+Connection ~ 1700 4050
+$Comp
+L charger:NDP6020 Q11
+U 1 1 601D8324
+P 2800 3050
+F 0 "Q11" H 3050 3070 50  0000 L CNN
+F 1 "NDP6020" H 3050 2979 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3000 2975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 2800 3050 50  0001 L CNN
+	1    2800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 4800 3350
+Connection ~ 4800 4050
+Wire Wire Line
+	4800 4050 4300 4050
+Wire Wire Line
+	3750 3250 3750 3050
+Connection ~ 3750 3250
+Wire Wire Line
+	3750 3250 3750 3350
+Wire Wire Line
+	2900 3250 2900 3300
+Wire Wire Line
+	2500 4050 2900 4050
+Wire Wire Line
+	2000 3250 2000 3300
+Wire Wire Line
+	1700 4050 2000 4050
+Wire Wire Line
+	2000 3300 2100 3300
+Wire Wire Line
+	2100 3300 2100 2050
+Connection ~ 2000 3300
+Wire Wire Line
+	2000 3300 2000 4050
+Wire Wire Line
+	2900 3300 3150 3300
+Wire Wire Line
+	3150 3300 3150 2200
+Wire Wire Line
+	3150 2200 2850 2200
+Wire Wire Line
+	2850 2200 2850 2050
+Connection ~ 2900 3300
+Wire Wire Line
+	2900 3300 2900 4050
+Wire Wire Line
+	3750 3350 4000 3350
+Wire Wire Line
+	4000 3350 4000 2200
+Wire Wire Line
+	4000 2200 3650 2200
+Wire Wire Line
+	3650 2200 3650 2000
+Connection ~ 3750 3350
+Wire Wire Line
+	3750 3350 3750 4050
+Wire Wire Line
+	4400 2000 4400 2200
+Wire Wire Line
+	4400 2200 5100 2200
+Wire Wire Line
+	5100 2200 5100 3350
+Wire Wire Line
+	5100 3350 4800 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	4800 3350 4800 4050
+Wire Wire Line
+	2600 3050 2500 3050
+Wire Wire Line
+	3450 3050 3400 3050
+Connection ~ 3400 3350
+Wire Wire Line
+	4500 3050 4300 3050
+$Comp
+L batteryholder1:R R5
+U 1 1 602DD643
+P 8350 1100
+F 0 "R5" V 8143 1100 50  0000 C CNN
+F 1 "5R" V 8234 1100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 1100 50  0001 C CNN
+F 3 "~" H 8350 1100 50  0001 C CNN
+	1    8350 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L batteryholder1:R R6
+U 1 1 602DD963
+P 8350 1400
+F 0 "R6" V 8143 1400 50  0000 C CNN
+F 1 "5R" V 8234 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 1400 50  0001 C CNN
+F 3 "~" H 8350 1400 50  0001 C CNN
+	1    8350 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L batteryholder1:R R7
+U 1 1 602DDBC4
+P 8350 1700
+F 0 "R7" V 8143 1700 50  0000 C CNN
+F 1 "5R" V 8234 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 1700 50  0001 C CNN
+F 3 "~" H 8350 1700 50  0001 C CNN
+	1    8350 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L batteryholder1:R R8
+U 1 1 602DDDA6
+P 8350 2000
+F 0 "R8" V 8143 2000 50  0000 C CNN
+F 1 "5R" V 8234 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8280 2000 50  0001 C CNN
+F 3 "~" H 8350 2000 50  0001 C CNN
+	1    8350 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 3050 1700 3350
+Wire Wire Line
+	4300 3050 4300 3350
+Wire Wire Line
+	3400 3050 3400 3350
+Wire Wire Line
+	2500 3050 2500 3350
+$Comp
+L charger:NDP6020 Q1
+U 1 1 603C3A35
+P 1600 3550
+F 0 "Q1" H 1850 3570 50  0000 L CNN
+F 1 "NDP6020" H 1850 3479 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1800 3475 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38" H 1600 3550 50  0001 L CNN
+	1    1600 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1400 3550
+Wire Wire Line
+	1700 3050 1700 2600
+Connection ~ 1700 3050
+Wire Wire Line
+	2500 3050 2500 2600
+Wire Wire Line
+	1700 2600 2500 2600
+Connection ~ 2500 3050
+Connection ~ 2500 2600
+Wire Wire Line
+	2500 2600 3400 2600
+Wire Wire Line
+	3400 3050 3400 2600
+Connection ~ 3400 3050
+Connection ~ 3400 2600
+Wire Wire Line
+	3400 2600 4300 2600
+Wire Wire Line
+	4300 3050 4300 2600
+Connection ~ 4300 3050
+Connection ~ 4300 2600
+$Comp
+L charger:Ina219-breakout in1
+U 1 1 5FFBE448
+P 6400 3350
+F 0 "in1" H 5481 2669 50  0000 R CNN
+F 1 "Ina219-breakout" H 5481 2760 50  0000 R CNN
+F 2 "charger:ina219_footprint" H 6400 3350 50  0001 C CNN
+F 3 "" H 6400 3350 50  0001 C CNN
+	1    6400 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 2600 6150 2600
+Wire Wire Line
+	4000 4700 6000 4700
+$Comp
+L Connector:Conn_01x16_Male J3
+U 1 1 5FFFA4EA
+P 6200 4300
+F 0 "J3" V 6035 4228 50  0000 C CNN
+F 1 "Conn_01x16_Male" V 6126 4228 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_1-826576-6_1x16_P3.96mm_Vertical" H 6200 4300 50  0001 C CNN
+F 3 "~" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 4050 3100 4800
+Wire Wire Line
+	3100 4800 6000 4800
+Connection ~ 3100 4050
+Wire Wire Line
+	2200 4050 2200 4900
+Wire Wire Line
+	2200 4900 6000 4900
+Connection ~ 2200 4050
+Wire Wire Line
+	1400 4050 1400 5000
+Wire Wire Line
+	1400 5000 6000 5000
+Connection ~ 1400 4050
+Wire Wire Line
+	2100 900  2550 900 
+Connection ~ 2100 900 
+Connection ~ 2550 900 
+Wire Wire Line
+	2850 900  3350 900 
+Connection ~ 2850 900 
+Connection ~ 3350 900 
+Wire Wire Line
+	3650 900  4100 900 
+Wire Wire Line
+	2550 900  2550 1850
+Connection ~ 3650 900 
+Connection ~ 4100 900 
+Wire Wire Line
+	4400 900  7500 900 
+Wire Wire Line
+	7500 3000 6850 3000
+Connection ~ 4400 900 
+Wire Wire Line
+	7500 3000 7500 4500
+Wire Wire Line
+	7500 4500 6600 4500
+Connection ~ 7500 3000
+Wire Wire Line
+	8200 1100 7500 1100
+Wire Wire Line
+	7500 900  7500 1100
+Connection ~ 7500 1100
+Wire Wire Line
+	7500 1100 7500 1400
+Wire Wire Line
+	8200 1400 7500 1400
+Connection ~ 7500 1400
+Wire Wire Line
+	7500 1400 7500 1700
+Wire Wire Line
+	8200 1700 7500 1700
+Connection ~ 7500 1700
+Wire Wire Line
+	7500 1700 7500 2000
+Wire Wire Line
+	8200 2000 7500 2000
+Connection ~ 7500 2000
+Wire Wire Line
+	7500 2000 7500 3000
+Wire Wire Line
+	6150 2900 5800 2900
+Wire Wire Line
+	5800 2900 5800 2350
+Wire Wire Line
+	5800 2350 8800 2350
+Wire Wire Line
+	8800 2350 8800 2000
+Wire Wire Line
+	8800 2000 8500 2000
+Wire Wire Line
+	8800 2000 8800 1700
+Wire Wire Line
+	8800 1100 8500 1100
+Connection ~ 8800 2000
+Wire Wire Line
+	8500 1400 8800 1400
+Connection ~ 8800 1400
+Wire Wire Line
+	8800 1400 8800 1100
+Wire Wire Line
+	8500 1700 8800 1700
+Connection ~ 8800 1700
+Wire Wire Line
+	8800 1700 8800 1400
+$EndSCHEMATC
